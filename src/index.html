@@ -1,0 +1,111 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Bootstrap_References</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <h1 class="main-heading">Bootstrap_References</h1>
+            </div>
+            <div class="row">
+                <h5 class="author">Author:Mohammed Shahed Ali</h5>
+                
+            </div>
+        </div>
+    </header>
+<main>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col col-md-4 col-sm-12 order-0">
+                   <details>
+                       <summary>LAYOUT</summary>
+                       <ul>
+                           <li>.container</li>
+                           <li>.container-fluid</li>
+                           <li>.row</li>
+                           <li>.col</li>
+                           <details>
+                               <summary>Grid .col(break-points)</summary>
+                               <ul>
+                                   <li>col-responsive</li>
+                                   <li></li>
+                               </ul>
+                           </details>
+                       </ul>
+                   </details>
+                </div>
+                <div class="col col-md-8 col-sm-12">
+                    <h2>About Layout.</h2>
+                    <p>Layout tells about the structure of the webpage</p>
+                    <p>There are 3 main classes for layouting a webpage in bootsrap, they are .container .row .col.I will them below in a more desrciptive manner with examples </p>
+                    <h3>.Container.</h3>
+                    <p>Container is the outer box (or) the main box i,e..parent element of all other elements</p>
+                    <p>A container at <span>larger screen size</span> has a width of <span >1140 px </span> and reduces w.r.t screen size. A container is fully responsive. </p>
+                    <p>By default a container has a <span>left and right padding of 15px</span></p>
+                    <p>A container looks like this</p>
+                    <center><strong>.container</strong></center>
+                    <div class="container Container">
+                        <p class="inner-elements mt-2">inner elements</p>
+                    </div>
+                    <hr class="border">
+                    <h2>About row.</h2>
+                    <p>Row is used to create horizontal section in the webpage it has a <span>margin of 15px from right and -15 from left.</span></p>
+                    <center><strong>.container>.row</strong></center>
+                    <div class="container Container">
+                        <div class="row Row">
+                            <p>ROW</p>
+                        </div>
+                    </div>
+                    <p>both container and row borders got overlapped.</p>
+                    <hr>
+                    <h2>About col.</h2>
+                    <p>Column is used to create equal width div tag.Column is used inside a row.Column can create 12 different sections inside a row class.Column is vertically aligned </p>
+                    <center><strong>.container>.row>.col</strong></center>
+                    <div class="container Container">
+                        <div class="row Row">
+                            <div class="col-6 Column">
+                                <p>Col-6</p>
+                            </div>
+                            <div class="col-6 Column">
+                                <p>Col-6</p>
+                            </div>
+                        </div>
+                    </div>
+                    <p>A column can make 12 sections and width of each section is completely dependent on screen size (fully responsive) </p>
+                    <p>If more than 12 column come in a row then 13 <sup>th</sup> will move itself in next line. </p>
+                    <hr>
+                    <h2>Responsive Grid</h2>
+                    <p>Bootstrap provides 5 different @media queries w.r.t screen size.They define screen sizes in folloowing ways.</p>
+                    <ol>
+                        <li>Extra large (xl) &rarr; screens whose screen size is >= 1200px </li>
+                        <p>xl screen container width is 1140px</p>
+                        <li>Large (lg) &rarr; screens whose screens size is >=992px</li>
+                        <p>lg screen container width is 960px</p>
+                        <li>Medium (md) &rarr; screens whose screens size is >= 768px</li>
+                        <p>md screen container width is 720px</p>
+                        <li>Small (sm) &rarr; screens whose screen size is >=576px </li>
+                        <p>sm screen container width is 540px</p>
+                        <li>Extra small (xsm) &rarr; screens whose screen size is <=575px </li>
+                        <p>xsm screen container width is auto</p>
+                    </ol>
+
+                
+                
+                
+                
+                
+                </div>
+           </div>
+        </div>
+    </section>
+</main>
+
+    
+</body>
+</html>

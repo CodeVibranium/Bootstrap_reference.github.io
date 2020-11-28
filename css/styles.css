@@ -1,0 +1,35 @@
+.row{
+    border:5px solid black;
+}
+.col{
+    border:5px solid red;
+} 
+
+p{padding-left:25px;}
+
+span{
+    background-color: yellow;
+}
+
+/***************************start************************************/
+
+.main-heading,.author{
+    margin:0 auto;
+    padding:30px 0;
+}
+.Container{
+    border:2px solid black;
+}
+.Row{border:2px solid red;}
+.Column{border:2px solid green;}
+.inner-elements{
+    border:2px solid red;
+}
+
+
+
+
+/*<p>There are 3 important classes in which whole layout of the website depends, they are</p>*/
+
+
+/**************************end ***********************************/
